@@ -3,3 +3,4 @@ print(name)
 
 name="Hello"
 print(name)
+print(name)
