@@ -1,6 +1,6 @@
 #input is predefind function in python which will take user info
 
-lang=input("Please enter programming lang:")
+lang=input()
 
 #elif is else if
 
