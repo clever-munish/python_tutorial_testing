@@ -15,15 +15,18 @@ emp={"Qa":"Munish","Dev":{"frontend":"Rahul","backend":"Neha"}}
 #print(emp.get("Dev"))
 emp1=emp.get("Dev")
 emp_name=emp1.get("backend")
-print(emp_name)
+#print(emp_name)
 
 emp["manager"]="xyz"
+#print(emp)
+
+emp["Hello"]="ABC"
 print(emp)
 
 #pop remove the value item form the last and first
 emp.pop("Qa")
-print("****************************")
-print(emp)
+#print("****************************")
+#print(emp)
 emp.popitem()
-print(emp)
+#print(emp)
 
