@@ -4,9 +4,9 @@ from selenium import webdriver
 
 chrome_path = r'C:\Users\Admin\Documents\Drv\chromedriver.exe'
 driver = webdriver.Chrome(executable_path=chrome_path)
-driver.get("https://develop.ezeetel.ca/")
+# driver.get("https://develop.ezeetel.ca/")
 driver.maximize_window()
-driver.find_element_by_id("email").send_keys('munish@ezeetel.ca')
+time.sleep(5)
 driver.find_element_by_name('password').send_keys('321')
 # driver.close()
 driver.find_element_by_id('login-button').click()
